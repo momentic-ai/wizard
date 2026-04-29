@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.2
+
+### Patch Changes
+
+- f3e2678: Surface dashboard URL for failed test runs with --upload-results
+- 779165e: Append confetti query param when opening run URL after a successful sample test
+
 ## 0.1.1
 
 ### Patch Changes
