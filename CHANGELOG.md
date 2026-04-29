@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.1
+
+### Patch Changes
+
+- 878630f: Simplified wizard scaffold tests for faster execution
+
 ## 0.1.0
 
 ### Minor Changes
