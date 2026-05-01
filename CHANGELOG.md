@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.3
+
+### Patch Changes
+
+- 1fb746c: Add PostHog telemetry for wizard setup flow
+- fd1da59: Generated `momentic.config.yaml` files no longer set an unused default failure-recovery agent version.
+
 ## 0.1.2
 
 ### Patch Changes
