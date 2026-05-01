@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.4
+
+### Patch Changes
+
+- c284376: Align init and upgrade configs with wizard defaults: add useMemory, failure recovery v2.0, and mobile upgrade command
+
 ## 0.1.3
 
 ### Patch Changes
