@@ -8,7 +8,7 @@
 The official onboarding wizard for [Momentic](https://momentic.ai). It walks you
 through picking your testing platforms (web / iOS / Android), installing the
 matching Momentic CLI(s), configuring an API key, and scaffolding your first
-end-to-end test — all in a single command.
+end-to-end test, all in a single command.
 
 **Learn more in the [official documentation](https://momentic.ai/docs)**.
 
@@ -38,9 +38,9 @@ The wizard will:
 
 ## Subcommands
 
-- `momentic-wizard login` — sign in via WorkOS in your browser and save an API
+- `momentic-wizard login`: sign in via WorkOS in your browser and save an API
   key to `~/.momentic/auth.json`.
-- `momentic-wizard logout` — remove the saved credentials.
+- `momentic-wizard logout`: remove the saved credentials.
 
 ## Options
 
