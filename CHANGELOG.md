@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.5
+
+### Patch Changes
+
+- 9f6c060: End-of-wizard "Next steps" now spells out the two ways to build your next test: open the local editor or prompt your AI editor via the Momentic MCP server.
+- 4f9519e: The setup wizard now adds the sample environment(s) the scaffolded test depends on, even when a `momentic.config.yaml` already exists, so the very first run no longer fails with a missing-environment error. Mobile projects also get a sample environment so it's clear how to configure variables. Failures during the sample test, the editor-skills install, and the CLI install now show the full underlying output instead of being truncated to the last few lines. CLI command help, log messages, and READMEs now refer to the "Momentic dashboard" instead of "Momentic Cloud".
+
 ## 0.1.4
 
 ### Patch Changes
