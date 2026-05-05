@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.6
+
+### Patch Changes
+
+- 4cf851c: Migrate workspace packages from `main` to `exports` and enable tree-shaking in tsup bundles. Adds `sideEffects: false` to internal packages so esbuild can drop dead code from CLI builds.
+- c8b83c5: Distinguish reused-credentials sign-ins from full device-code sign-ins in the wizard's auth telemetry.
+
 ## 0.1.5
 
 ### Patch Changes
