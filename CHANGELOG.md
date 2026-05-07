@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.7
+
+### Patch Changes
+
+- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+
 ## 0.1.6
 
 ### Patch Changes
