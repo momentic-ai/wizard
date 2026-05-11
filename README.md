@@ -38,8 +38,8 @@ The wizard will:
 
 ## Subcommands
 
-- `momentic-wizard login`: sign in via WorkOS in your browser and save an API
-  key to `~/.momentic/auth.json`.
+- `momentic-wizard login`: sign in via your browser and save an API key to
+  `~/.momentic/auth.json`.
 - `momentic-wizard logout`: remove the saved credentials.
 
 ## Options
