@@ -4,14 +4,14 @@
 
 ### Patch Changes
 
-- c358018: Upgrade PostHog telemetry SDK to v5 (native fetch, no axios).
+- c358018: Improve reliability of usage telemetry.
 
 ## 0.1.6
 
 ### Patch Changes
 
-- 4cf851c: Migrate workspace packages from `main` to `exports` and enable tree-shaking in tsup bundles. Adds `sideEffects: false` to internal packages so esbuild can drop dead code from CLI builds.
-- c8b83c5: Distinguish reused-credentials sign-ins from full device-code sign-ins in the wizard's auth telemetry.
+- 4cf851c: Reduce CLI bundle size for faster installs.
+- c8b83c5: Improve sign-in telemetry.
 
 ## 0.1.5
 
@@ -30,7 +30,7 @@
 
 ### Patch Changes
 
-- 1fb746c: Add PostHog telemetry for wizard setup flow
+- 1fb746c: Add telemetry for the wizard setup flow.
 - fd1da59: Generated `momentic.config.yaml` files no longer set an unused default failure-recovery agent version.
 
 ## 0.1.2
