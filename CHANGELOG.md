@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.8
+
+### Patch Changes
+
+- 11e7140: Fix "(intermediate value).env is not a function" crash on startup that could occur in some package manager layouts.
+
 ## 0.1.7
 
 ### Patch Changes
