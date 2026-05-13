@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.9
+
+### Patch Changes
+
+- 0e97050: Surface package manager output when installing the Momentic CLI, so install errors (registry, auth, peer-dep, engine, etc.) are visible instead of hidden behind a generic failure message.
+
 ## 0.1.8
 
 ### Patch Changes
