@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.10
+
+### Patch Changes
+
+- c1e6c6f: `momentic-mobile run` now prints the list of scheduled tests before the run starts. Wizard falls back to plain-text logging when stdout is not a TTY.
+- 9fce4f9: Capture wizard setup failures with Sentry, a persistent log file at `~/.momentic/logs/`, and richer error messages — including a pre-flight check that points you at the right install command when the chosen package manager isn't on PATH.
+
 ## 0.1.9
 
 ### Patch Changes
