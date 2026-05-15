@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.1.11
+
+### Patch Changes
+
+- da10cb2: Fix wizard install errors when run via npx with non-npm package managers.
+- 4f2eb35: Improve schema validation performance and error messages
+
 ## 0.1.10
 
 ### Patch Changes
