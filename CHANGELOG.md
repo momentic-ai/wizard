@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.13
+
+### Patch Changes
+
+- c9d2aea: Fix wizard crash when installing the Momentic CLI on Windows.
+
 ## 0.1.12
 
 ### Patch Changes
