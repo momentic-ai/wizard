@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.1.12
+
+### Patch Changes
+
+- 1b6ccf9: Identify authenticated CLI users to product analytics for better support and self-serve activation diagnostics.
+
 ## 0.1.11
 
 ### Patch Changes
