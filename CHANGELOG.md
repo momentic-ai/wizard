@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.2.0
+
+### Minor Changes
+
+- 9080050: Scaffold new projects in the simplified v2 file format. `momentic init`, `momentic-mobile init`, and `@momentic/wizard` now create configs with `fileFormat: v2` and emit v2 sample tests. When the wizard finds an existing `momentic.config.yaml`, it stops and points you at `momentic upgrade` / `momentic-mobile upgrade` so the existing project can be brought to the latest format on its own.
+
 ## 0.1.13
 
 ### Patch Changes
