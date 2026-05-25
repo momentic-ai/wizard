@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.2.1
+
+### Patch Changes
+
+- e6ca1a7: Reframe the wizard's welcome and sign-in copy when no Momentic credentials exist on the machine yet. First-time runners now see "Create your Momentic account (or sign in if you have one)" instead of language that assumes they already have an account.
+- 947ec9b: Internal improvements to the wizard startup flow.
+
 ## 0.2.0
 
 ### Minor Changes
