@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.2.2
+
+### Patch Changes
+
+- 8dbce07: Speed up the first run of the sample test scaffolded during onboarding so it reuses cached element targeting instead of resolving every step with AI
+
 ## 0.2.1
 
 ### Patch Changes
