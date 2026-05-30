@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 0.3.0
+
+### Minor Changes
+
+- e21de6f: The wizard now runs non-interactively in CI and from coding agents (Claude Code, Cursor) instead of hanging on prompts. Without a TTY, or with `-y`/`--yes`, it authenticates from `MOMENTIC_API_KEY`/`--api-key` (falling back to saved credentials) rather than opening a browser sign-in, defaults the platform to web (override with `--platform`), names the project after the directory, and wires Momentic into your coding agents (configurable via `--editor-tools all|none|<list>`). With no credentials it exits with a clear, actionable message instead of stalling.
+
+### Patch Changes
+
+- 5e347e7: Show clearer next steps when run in an already-configured project, display the full sample test output, and run the sample web test in headless mode.
+
 ## 0.2.2
 
 ### Patch Changes
