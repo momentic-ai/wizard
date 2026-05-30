@@ -44,16 +44,33 @@ The wizard will:
 
 ## Options
 
-```
-momentic-wizard [options]
+Flags are documented by the CLI itself (defaults, env vars, and choices
+included), so run:
 
-Options:
-  --cwd <path>              Working directory to run the wizard in (default: cwd)
-  --server <url>            Override Momentic API server URL (advanced)
-  --platforms <platforms>   Comma-separated list of platforms (web, ios, android)
-  --debug                   Enable verbose logging
-  -h, --help                Display help
-  -V, --version             Display version
+```bash
+npx @momentic/wizard@latest --help
 ```
 
-The wizard is always interactive.
+The flags that matter most for CI and coding agents — `-y` / `--yes`,
+`--api-key`, `--platform`, and `--editor-tools` — are covered in
+[Non-interactive mode](#non-interactive-mode-ci--coding-agents) below.
+
+## Non-interactive mode (CI & coding agents)
+
+The wizard normally prompts for the platform, sign-in, project name, and which
+coding agents to wire up. When there is no TTY (CI, or a coding agent like
+Claude Code / Cursor shelling out), or when you pass `-y` / `--yes`, it runs
+**non-interactively** and never prompts:
+
+- **Auth** comes from `--api-key` / `MOMENTIC_API_KEY` (validated against the
+  server), falling back to `~/.momentic/auth.json`. If neither is present it
+  exits with a clear message instead of opening a browser or hanging.
+- **Platform** uses `--platform` (defaults to `web`).
+- **Project name** uses the directory / `package.json` name.
+- **Coding agents** default to the ones detected in your environment plus
+  Momentic skills; override with `--editor-tools` (`all`, `none`, or a list such
+  as `claude-code,cursor,skills`).
+
+```bash
+MOMENTIC_API_KEY=mk_... npx @momentic/wizard@latest --yes
+```
