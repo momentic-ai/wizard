@@ -1,5 +1,16 @@
 # @momentic/wizard
 
+## 0.4.0
+
+### Minor Changes
+
+- c3b63ac: The setup wizard now configures editor validation for your project: it detects your installed editors and adds Momentic's JSON Schema associations to the matching settings file (.vscode/settings.json for VS Code, Cursor, and Windsurf, or .zed/settings.json for Zed), so test and module YAML files get autocomplete and inline validation as you write.
+
+### Patch Changes
+
+- ab2f970: Use a cleaner npx command when running CLI commands in npm-based projects
+- f7bd477: Fix the setup wizard reporting that Momentic skills were installed when they weren't, so the skills are now reliably installed and available to your coding agents right after setup.
+
 ## 0.3.0
 
 ### Minor Changes
