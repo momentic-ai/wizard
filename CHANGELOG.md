@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.4.1
+
+### Patch Changes
+
+- f94d62a: Fixed the onboarding wizard defaulting to npm inside pnpm/yarn monorepos. It now detects the project's package manager even when run from a nested package, and retries npm installs with --legacy-peer-deps when a pre-existing peer-dependency conflict would otherwise block installing the CLI.
+
 ## 0.4.0
 
 ### Minor Changes
