@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.5.0
+
+### Minor Changes
+
+- 3e4e0ee: When run in a directory that already has a Momentic project, the wizard no longer scaffolds tests or changes your config. It now offers to install the Momentic skills, MCP server, and browsers, and prompts you to upgrade when your project is on an older format or your installed Momentic version is behind the latest release.
+
 ## 0.4.1
 
 ### Patch Changes
