@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.5.1
+
+### Patch Changes
+
+- cc1d1a1: Show clear messages for missing, moved, or conflicting module files instead of unexpected errors.
+
 ## 0.5.0
 
 ### Minor Changes
