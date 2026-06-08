@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 0.5.2
+
+### Patch Changes
+
+- 5cd9248: Skip the sample test run during onboarding when the browser isn't installed, and continue setup instead of stopping
+- 74aa15c: Show a clear, actionable message instead of an unexpected crash when sign-in credentials can't be saved due to file permissions
+
 ## 0.5.1
 
 ### Patch Changes
