@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.6.1
+
+### Patch Changes
+
+- 0d18573: Improve onboarding reliability: the sample test run and coding-agent setup now resolve their commands more robustly across package managers and platforms, and surface clearer, more actionable error messages when a tool is missing or a step fails.
+
 ## 0.6.0
 
 ### Minor Changes
