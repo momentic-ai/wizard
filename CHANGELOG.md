@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.6.2
+
+### Patch Changes
+
+- 338eb6c: Fix `install-browsers` so installed browsers are no longer unexpectedly removed when another Playwright-based tool shares the same browser cache, which previously caused "required browser executables are not installed" errors when running tests.
+
 ## 0.6.1
 
 ### Patch Changes
