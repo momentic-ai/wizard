@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 0.6.3
+
+### Patch Changes
+
+- e42960f: Editor validation setup now also configures autocomplete and inline validation for momentic.config.yaml.
+
 ## 0.6.2
 
 ### Patch Changes
