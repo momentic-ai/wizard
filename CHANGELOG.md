@@ -1,5 +1,19 @@
 # @momentic/wizard
 
+## 1.0.0
+
+### Major Changes
+
+- 209ade0: Dropped support for Node.js 20, which has reached end of life. The CLIs now
+  require Node.js 22 or newer.
+
+### Patch Changes
+
+- 209ade0: New projects now default to the latest version of each AI agent, pinned to an
+  exact sub-version. Pinning keeps the default from changing unexpectedly when a
+  newer revision of the same agent ships. Existing projects that already set
+  `ai.agentConfig` are unaffected.
+
 ## 0.6.3
 
 ### Patch Changes
