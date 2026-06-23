@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.0.1
+
+### Patch Changes
+
+- 693f21d: Resolve security advisories in bundled dependencies.
+
 ## 1.0.0
 
 ### Major Changes
