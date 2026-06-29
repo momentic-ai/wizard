@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 1.0.2
+
+### Patch Changes
+
+- 4a2e372: Make onboarding more reliable with an automatic browser-install retry and clearer mobile setup guidance.
+- e6831ad: Fix onboarding failing to install browsers and run the sample test under some package managers (e.g. Yarn Berry).
+
 ## 1.0.1
 
 ### Patch Changes
