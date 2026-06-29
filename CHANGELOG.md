@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.0.3
+
+### Patch Changes
+
+- 43bc4aa: The momentic, momentic-mobile, and wizard CLIs now require Node.js ^22.12.0 || >=24.0.0 and exit at startup with an actionable message when run on an unsupported version.
+
 ## 1.0.2
 
 ### Patch Changes
