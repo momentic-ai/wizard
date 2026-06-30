@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.0.4
+
+### Patch Changes
+
+- 91a9ddb: Simplified v2 YAML output no longer includes schema version metadata, default viewport (1920x1080), or default browser type (Chromium).
+
 ## 1.0.3
 
 ### Patch Changes
