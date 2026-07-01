@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.0.5
+
+### Patch Changes
+
+- 66fc2e7: Fix MCP server registration failing when re-running the wizard
+
 ## 1.0.4
 
 ### Patch Changes
