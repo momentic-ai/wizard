@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.0.6
+
+### Patch Changes
+
+- cb741b8: Show a clear error message when TLS certificate validation fails during setup (e.g. corporate proxies)
+
 ## 1.0.5
 
 ### Patch Changes
