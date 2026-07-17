@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 1.1.0
+
+### Minor Changes
+
+- d71e2d7: Answer the onboarding questions directly in the wizard so you can skip them in the app.
+
+### Patch Changes
+
+- 70a2476: Reduce delays from git metadata collection and show preparation progress during AI triage and classification.
+
 ## 1.0.6
 
 ### Patch Changes
