@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.1.1
+
+### Patch Changes
+
+- 315c5c3: Fix a rare failure that could corrupt run result archives when they grew past the zip size limit
+
 ## 1.1.0
 
 ### Minor Changes
