@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.1.2
+
+### Patch Changes
+
+- 2fed62b: Sign-in automatically issues a new code if you don't finish signing in before the first one expires
+
 ## 1.1.1
 
 ### Patch Changes
