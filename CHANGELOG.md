@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.1.3
+
+### Patch Changes
+
+- 5cc53dd: Wire Momentic into VS Code, Claude Code, and Codex even when their CLI is not on your PATH, and stop offering editors whose CLI cannot be found.
+
 ## 1.1.2
 
 ### Patch Changes
