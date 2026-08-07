@@ -1,5 +1,16 @@
 # @momentic/wizard
 
+## 1.2.0
+
+### Minor Changes
+
+- a214e18: Wizard sign-in no longer requires a TTY: without a terminal it prints the device code and URL and waits, and only refuses under CI. Coding agents wired through their own CLI (VS Code, Claude Code, Codex) are marked "not installed" and skipped with an actionable hint instead of failing.
+
+### Patch Changes
+
+- a43c3d3: Show an actionable error when sign-in cannot reach Momentic or WorkOS, instead of a bare "fetch failed" or a misleading "invalid API key" message, and tolerate brief network blips while waiting for browser sign-in to complete.
+- c76b925: Show a rotating tip when the CLI starts, and call out in the wizard and CLI next steps that naming a skill (e.g. /momentic-test) is what guarantees your coding agent uses it
+
 ## 1.1.3
 
 ### Patch Changes
