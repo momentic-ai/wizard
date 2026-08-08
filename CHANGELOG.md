@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.3.0
+
+### Minor Changes
+
+- 605026d: Allow specifying where you heard about Momentic when selecting "Other" during setup
+
 ## 1.2.0
 
 ### Minor Changes
