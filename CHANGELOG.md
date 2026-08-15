@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 1.3.1
+
+### Patch Changes
+
+- 1d42455: Fix iOS and Android runs failing with "The Chromium browser is not installed": mobile tests and onboarding no longer need a local browser install
+- 4c7d62d: The setup wizard no longer stops when your package manager reports a non-zero exit after the Momentic CLI is already installed.
+
 ## 1.3.0
 
 ### Minor Changes
