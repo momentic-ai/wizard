@@ -1,5 +1,13 @@
 # @momentic/wizard
 
+## 1.3.2
+
+### Patch Changes
+
+- 4d6f4f2: Fix spurious git errors when the system uses a non-English locale
+- 8116d0c: Enable AI action shorthand by default for newly initialized projects, improve its editor validation, and allow any stable kebab-case V2 ID.
+- 4d6f4f2: Fix setup failing with "Couldn't find the binary momentic" in Yarn projects
+
 ## 1.3.1
 
 ### Patch Changes
