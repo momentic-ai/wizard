@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.4.1
+
+### Patch Changes
+
+- da2bf5c: Add v2 mobile locator configs
+
 ## 1.4.0
 
 ### Minor Changes
