@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.5.0
+
+### Minor Changes
+
+- 4ed24d3: Default new and upgraded web projects to `v5` locator and assertion agents with automatic effort routing, and mobile projects to `v2` locators.
+
 ## 1.4.1
 
 ### Patch Changes
