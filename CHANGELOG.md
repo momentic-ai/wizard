@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 1.6.0
+
+### Minor Changes
+
+- b74cc74: Running the wizard from a directory without a package.json (e.g. a monorepo root) now offers to install into a nested project or create a package.json, instead of failing.
+
+### Patch Changes
+
+- b814254: The wizard skips the browser install and shows the install command when the momentic CLI is not installed.
+
 ## 1.5.0
 
 ### Minor Changes
