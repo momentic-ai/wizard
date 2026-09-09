@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 1.7.0
+
+### Minor Changes
+
+- 2ba4e90: Bundle the Momentic coding agent skills with the CLIs. Install them with momentic skills, momentic-mobile skills, or mo skills. The CLI asks once when an upgrade ships newer skills, and init and the wizard offer skills and MCP setup.
+
+### Patch Changes
+
+- 70f0c8f: The wizard now writes MCP config with the same installer as `momentic install-mcp`: it targets the project config where the agent supports one, registers the mobile server as `momentic-mobile`, and adds Zed and Gemini CLI.
+
 ## 1.6.0
 
 ### Minor Changes
