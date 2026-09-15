@@ -1,5 +1,14 @@
 # @momentic/wizard
 
+## 1.7.1
+
+### Patch Changes
+
+- 586a77e: The wizard now installs the CLI with pnpm versions that reject the `--prod` flag, such as pnpm 12. `NODE_ENV=production` still does not skip the dev dependency.
+- 470e36b: Ask personal-email signups to name their workspace during onboarding.
+- 1c862ae: Add more "How did you hear about us?" options to the setup wizard: teammate or manager, investor or accelerator, agent directory or MCP listing, newsletter, podcast, conference or event, and billboard.
+- 470e36b: Prefill the workspace name prompt with the current org name.
+
 ## 1.7.0
 
 ### Minor Changes
