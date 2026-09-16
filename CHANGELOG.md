@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.7.2
+
+### Patch Changes
+
+- 00a4152: The setup wizard now checks for a configured Android SDK in addition to adb before running the sample test.
+
 ## 1.7.1
 
 ### Patch Changes
