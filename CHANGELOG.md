@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.7.3
+
+### Patch Changes
+
+- 6939b92: Fix setup install failing with EALLOWSCRIPTS when the wizard is launched via npx, explain common install failures with a suggested fix, and emit a machine-readable error line (momentic-wizard-error:) on stderr with a stable error code for every failure
+
 ## 1.7.2
 
 ### Patch Changes
