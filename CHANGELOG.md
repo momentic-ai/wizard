@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.7.4
+
+### Patch Changes
+
+- f6e56d5: Update npm page copy and package metadata: descriptions, keywords, homepage, bugs, and README headers.
+
 ## 1.7.3
 
 ### Patch Changes
