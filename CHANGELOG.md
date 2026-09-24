@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 1.8.0
+
+### Minor Changes
+
+- 557b03a: Add the `v5` visual-assertion agent and make it the default for new and upgraded projects. `momentic upgrade` sets `visual-assertion: v5`, replacing any `v4` or older value.
+
+### Patch Changes
+
+- 424847c: Fix setup flow for headless coding agents: `init` exits with an actionable error in non-TTY shells instead of crashing, `init --yes` now installs skills and attempts MCP wiring, `install-mcp` supports a `devin` client writing project `.mcp.json`, the wizard always installs the skills bundle to `.agents/skills/` unless `--editor-tools none`, and scaffolded tests get readable kebab-case ids.
+
 ## 1.7.4
 
 ### Patch Changes
