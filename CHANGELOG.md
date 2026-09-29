@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.8.2
+
+### Patch Changes
+
+- 4f33b3b: `momentic install-browsers` with no browser now tells you which browsers to pass, and the setup wizard's skipped-sample-test hint includes `chromium` so the suggested command works.
+
 ## 1.8.1
 
 ### Patch Changes
