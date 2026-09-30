@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.8.3
+
+### Patch Changes
+
+- bd15974: Security fixes.
+
 ## 1.8.2
 
 ### Patch Changes
