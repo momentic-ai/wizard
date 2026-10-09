@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.8.4
+
+### Patch Changes
+
+- c369a6d: The setup wizard suggests a valid project name when the package or folder name has characters such as dots or underscores, and rejects invalid names at the prompt.
+
 ## 1.8.3
 
 ### Patch Changes
