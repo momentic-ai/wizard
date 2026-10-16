@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.8.5
+
+### Patch Changes
+
+- 9883b5e: Remove confetti when opening sample test results after setup.
+
 ## 1.8.4
 
 ### Patch Changes
