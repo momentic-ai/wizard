@@ -1,5 +1,15 @@
 # @momentic/wizard
 
+## 1.9.0
+
+### Minor Changes
+
+- 5c530c9: CLI tests with no browser choice now inherit project and selected-environment settings, with Chromium as the fallback. This also applies to existing files that previously used Chromium when the browser field was absent. Set an explicit Chromium choice to keep that behavior. Cloud-stored test defaults do not change.
+
+  Saving test options preserves explicit overrides, including values that match a default, false, zero and supported null or empty values. Selecting Project default removes the browser field. Existing `Org Default` aliases remain intact during unrelated edits, step saves and moves. Metadata-only saves preserve step versions.
+
+  New wizard tests inherit project browser, viewport and retry settings instead of storing default values.
+
 ## 1.8.5
 
 ### Patch Changes
