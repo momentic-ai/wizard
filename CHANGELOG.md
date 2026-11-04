@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.9.2
+
+### Patch Changes
+
+- ecc4f0f: The setup wizard now offers a project picker when run from your home directory, uses the project root when run from a subfolder, lets you paste an API key when browser sign-in expires, and explains how to trust your corporate certificate when HTTPS traffic is intercepted.
+
 ## 1.9.1
 
 ### Patch Changes
