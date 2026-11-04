@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.9.1
+
+### Patch Changes
+
+- ed95348: Git commands no longer fail with "Use of GIT_ASKPASS is not permitted" when GIT_ASKPASS, SSH_ASKPASS, GIT_PROXY_COMMAND, or GIT_SSH_COMMAND is set to an empty value.
+
 ## 1.9.0
 
 ### Minor Changes
