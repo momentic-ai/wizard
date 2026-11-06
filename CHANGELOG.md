@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.9.3
+
+### Patch Changes
+
+- e34629e: Handle viewer port conflicts, missing app downloads and prompt cancellation, recognize argument errors from duplicate CLI parser installations, stop commands after an upgrade, and keep browser-launch failures recoverable.
+
 ## 1.9.2
 
 ### Patch Changes
