@@ -1,5 +1,16 @@
 # @momentic/wizard
 
+## 1.9.4
+
+### Patch Changes
+
+- bce08d4: Ask whether you found Momentic through ChatGPT, Claude, Gemini, Perplexity or a coding agent instead of one AI search option.
+- c5e6db2: Clarify editor setup, MCP connections,
+  and the next step after installing skills.
+- e2d5859: Register the hosted Momentic MCP server alongside the local server during coding-agent setup, or show connector instructions for Claude Desktop. Sign in to the hosted server on first use.
+
+  Reinstalling keeps your existing launcher; passing `--config` rewrites it with the default command and new config path, dropping version pins and custom arguments. Preserve local settings and API keys, and update recognized hosted connections under their existing names.
+
 ## 1.9.3
 
 ### Patch Changes
