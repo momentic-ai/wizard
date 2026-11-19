@@ -1,5 +1,12 @@
 # @momentic/wizard
 
+## 1.9.5
+
+### Patch Changes
+
+- 4a6a9a1: Security patches.
+- d8f9a4b: Launch installer-configured hosted MCP through qa mcp with the shared CLI login. Plugin connections keep OAuth by default and offer the CLI bridge as an opt-in.
+
 ## 1.9.4
 
 ### Patch Changes
