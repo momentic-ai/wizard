@@ -1,5 +1,11 @@
 # @momentic/wizard
 
+## 1.9.6
+
+### Patch Changes
+
+- 90ca3b1: Security patches.
+
 ## 1.9.5
 
 ### Patch Changes
